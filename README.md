@@ -1,6 +1,8 @@
 # Object Room
 quick and dirty reproduction of the Objects Room dataset from Deep Mind https://github.com/deepmind/multi_object_datasets#objects-room
 
+The only requirement is Unity (2020.3.7f1 was used, but any version that uses Unity Recorder 3.0+ should work as well, but not tested).
+
 All of the settings like number of spawned objects, types of objects, spawn area etc. are set through the Simulation Manager object in the scene. 
 At the moment Unity Perception SDK doesn't directly render depth maps, so as a workaround this is done through the Recorder. 
 
